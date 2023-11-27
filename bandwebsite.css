@@ -1,0 +1,563 @@
+body{
+    
+    margin:0px;
+    background-image: url(darkphoto\ -\ Copy.jpg);
+    
+   
+}
+
+/*pc formatting*/
+@media (min-width: 900px) {
+    /*Title formatting*/
+    h1{
+        color:yellow;
+        text-align: center;
+        font-family: myfont;
+        font-size: 100px;
+        text-shadow: 2px 2px 50px yellow;
+        letter-spacing: 8px;
+        top:0px;      
+    }
+    /*Logo formatting top*/
+    .img3{
+        border-radius: 1000px;
+        width:150px;
+        position:absolute;
+        top:5%;
+        left:5%;    
+    }
+    /*3 columns section*/
+    .textual{
+        width:900px;
+        height:800px;
+        background-color: rgb(255,255,0,0.5);
+        margin:auto;
+        
+    }    
+
+        
+
+    /*specific column*/
+    .breakdown{
+        width:33%;
+        display: inline-block;
+        font-family: myfont;
+        font-size: 50px;
+        text-align: center;
+        vertical-align: top;
+        height:100%;
+        overflow-y:scroll;
+        overflow-x:hidden;
+        margin:auto;    
+    }
+    h5{
+        font-family: myfont;
+        font-size: 100px;
+        margin:0px;
+        top:11%;
+        right:2%;
+        color:yellow;
+        text-shadow: 2px 2px 50px yellow;
+        letter-spacing: 10px;
+        display: inline-block;
+        position: fixed;
+        cursor:pointer;
+        z-index:1;
+    }
+
+    .iframetwo {
+        display: block;
+        margin: auto;
+        width: 560px;
+        height: 313px;
+    }
+
+    /*contact form formatting*/
+    .contactform{
+        color:black;
+        font-family: myfont;
+        margin:auto;
+        text-align: left;
+        font-size: 20px;
+        background-color: rgb(255,255,0,0.5);
+        margin:0% 20%;
+        padding:0% 5%;
+        
+    }
+    
+    /*stick to top of scrolly section*/
+    .sticky{
+        position:sticky;
+        top:0px;
+        background-color:  rgb(233, 233, 18);
+        font-family: myfont;
+        font-size: 50px;
+        margin:0px;
+        font-weight: bold;
+        padding:12% 0%;
+        border-bottom: solid;
+        
+    }
+    /*appearing toolbar*/
+
+    .optional{
+        background-color: black;
+        visibility: hidden;
+        width:25%;
+        position: fixed;
+        right:0.5%;
+        top:33%;
+        border:1px black solid;
+        background-color: rgb(255,255,0,0.5);
+        z-index: 1;
+        text-align: center;
+    }
+    /*back to the top button*/
+
+    .btn{
+        width:100px;
+        height:100px;
+        background-color: yellow;
+        font-size: 30px;
+        font-family:myfont;
+        font-weight: bold;
+        border-width: thick;
+        border-radius: 30px;
+        margin:20% 0% 0% 8%;
+        position: sticky;
+        z-index: 2;
+        cursor: pointer;
+    }
+
+
+}
+
+/*mobile formatting*/
+@media (max-width: 900px) {
+/*Title formatting*/
+    h1{
+        color:yellow;
+        text-align: center;
+        font-family: myfont;
+        font-size: 50px;
+        text-shadow: 2px 2px 50px yellow;
+        letter-spacing: 10px;
+        top:0px;
+        margin:50px 0px;
+            
+    }
+    /*Logo formatting top*/
+    .img3{
+        border-radius: 1000px;
+        width:180px;
+        position:absolute;
+        top:20%;
+        align-items: center;
+        
+        
+    }
+    /*3 columns section*/
+    .textual{
+       
+        
+        background-color: rgb(255,255,0,0.5);
+        margin:auto;
+        width:80%;
+        display:block;
+    }    
+
+        
+
+    /*specific column*/
+    .breakdown{
+       
+        font-family: myfont;
+        font-size: 50px;
+        text-align: center;
+        vertical-align: top;
+        margin:auto;
+    }
+    
+    h5{
+        font-family: myfont;
+        font-size: 40px;
+        margin:10px;     
+        color:yellow;
+        text-shadow: 2px 2px 50px yellow;
+        letter-spacing: 10px;
+        display: inline-block;
+        position: absolute;
+        cursor:pointer;
+        z-index:1;
+        border-radius: 100px;
+        padding:2px 0px 2px 10px;
+        right:0%;
+        top:0%;
+
+    }
+    .iframetwo {
+        width: 80%;
+        justify-content: center;
+        display:flex;
+        height: 300px;
+        margin:12%; 
+    }
+
+
+    /*contact form formatting*/
+    .contactform{
+        color:black;
+        font-family: myfont;
+        margin:auto;
+        text-align: left;
+        font-size: 20px;
+        background-color: rgb(255,255,0,0.5);
+        margin:0% 10%;
+        padding:0% 5%;
+        
+    }
+    
+    /*stick to top of scrolly section*/
+    .sticky{
+        top:0px;
+        background-color:  rgb(233, 233, 18);
+        font-family: myfont;
+        font-size: 50px;
+        margin:0px;
+        font-weight: bold;
+        padding:12% 0%;
+        border-bottom: solid;
+        
+    }
+
+    h7{
+        line-height: 170px;
+        background-color: black;
+    }
+    /*appearing toolbar*/
+
+    .optional{
+        background-color: black;
+        visibility: hidden;
+        width:25%;
+        position: fixed;
+        right:0.5%;
+        top:13%;
+        border:1px black solid;
+        background-color: rgb(255,255,0,0.5);
+        z-index: 1;
+        text-align: center;
+    }
+    /*back to the top button*/
+
+    .btn{
+        width:70px;
+        height:70px;
+        background-color: yellow;
+        font-size: 22px;
+        font-family:myfont;
+        font-weight: bold;
+        border-width: thick;
+        border-radius: 30px;
+        z-index: 2;
+        cursor: pointer;
+        right:0px;
+        bottom:0px;
+        position: relative;
+        margin:0%
+
+    }
+
+}
+
+.bottombottom{
+    position: relative;
+    bottom:0px;
+    right:0px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin:10% -10% 0% 0%;
+}
+
+
+@font-face {
+    font-family: myfont;
+    src: url("Fudd-8aDA.ttf");
+}
+
+/*Logo formatting bottom*/
+.img2{
+    border-radius: 1000px;
+    width:150px;
+}
+
+
+
+
+
+/*Title of the yellow box*/
+h2{
+    font-family: myfont;
+    font-size: 50px;
+    margin:0px;
+    
+    
+
+}
+
+/*Titles within gig section of the yellow box*/
+h3{
+    font-family: myfont;
+    font-size: 25px;
+}
+
+h4{
+    color:yellow;
+    text-align: center;
+    font-family: myfont;
+    font-size: 80px;
+    text-shadow: 2px 2px 50px yellow;
+    letter-spacing: 3px;
+    top:0px;
+}
+
+
+
+h6{
+    color:yellow;
+    text-align: center;
+    font-family: myfont;
+    font-size: 50px;
+    text-shadow: 2px 2px 50px yellow;
+    letter-spacing: 10px;
+    top:0px;
+}
+
+
+hr{
+    border: 1px solid black;
+}
+
+p{
+    font-family: myfont;
+    font-size:20px;
+    margin:10%;
+}
+
+
+
+
+/*text for contact us section*/
+.textgraph{
+    font-size:30px;
+    color:white;
+    font-family: myfont;
+    text-align: center;
+}
+
+/*text for bottom barleft*/
+.bottomp{   
+    font-size:40px;
+    margin:30px;
+}   
+
+/*text for bottom bar right*/
+.bottomq{   
+    font-size:25px;
+    margin:0px;
+    
+}   
+
+/*text for enquiries*/
+.enquiries{   
+    font-size:15px;
+    margin:0px;
+    
+}   
+
+
+.bottomq:hover{   
+    text-decoration: underline;
+    cursor:pointer;
+
+    
+}   
+
+/*Bars button*/
+.barsbutton{
+    text-align:right;
+    color:yellow;
+    font-family: myfont;
+    font-size: 100px;
+    text-shadow: 2px 2px 50px yellow;
+    letter-spacing: 10px;
+    top:-2%;
+    right:5%;
+    display: inline-block;
+    position: fixed;
+    cursor:pointer;
+}
+
+
+
+/*nicer looking scrolly bit*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+   
+
+  ::-webkit-scrollbar-thumb {
+    background: #969696; 
+}
+
+
+/*bottombar*/
+.bottombar{
+    background-color: rgb(255,255,0,0.5);
+    margin:0px;
+    
+
+    
+    
+   
+}
+
+/*text in bottom bar*/
+.bottomo{
+    display: inline-block;
+    width:40%;
+    text-align: center;
+    vertical-align: top;
+    
+    
+    
+}
+
+
+
+
+/*contact form box*/
+
+input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: myfont;
+}
+
+/*contact form box two*/
+
+.inputtwo{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    height:300px;
+    font-family: myfont;
+}
+
+/*submit button*/
+.sendbutton{
+    font-family: myfont;
+    font-size: 25px;
+    font-weight:bold;
+    height:50px;
+    width: 50%;
+    background-color: yellow;
+    border-width:0px;
+    cursor:pointer;
+    margin-left:50%;
+}
+
+
+
+
+
+/*appearing toolbar items*/
+
+.clickable{
+    font-size: 30px;
+    font-family:myfont;
+    color:black;
+    letter-spacing: 2px;
+    
+   
+}
+
+.clickable:hover{
+    font-size: 30px;
+    font-family:myfont;
+    text-decoration:underline;
+    letter-spacing: 2px;
+    cursor:pointer;
+    
+   
+}
+
+
+
+
+   
+
+
+
+html {
+    scroll-behavior: smooth;
+   }
+
+
+.instruments{
+    animation-name:guitar;
+    animation-duration: 20s;
+    position: absolute;
+    border-radius: 1000px;
+    animation-iteration-count: infinite;
+    z-index:-2;
+    visibility: hidden;
+    
+}
+
+@keyframes guitar {
+    0%   {left:0px; top: -1500px;}
+    100% { left:0px; top: 0px;}
+}
+
+.instrumentstwo{
+    animation-name:guitartwo;
+    animation-duration: 20s;
+    position: absolute;
+    border-radius: 1000px;
+    animation-iteration-count: infinite;
+    z-index:-2;
+    visibility: hidden;
+}
+
+@keyframes guitartwo {
+   0%   {right:0px; top: 0;}
+    100% { right:0px; top: -1500px;}
+}
+
+.centerit{
+    justify-content: center;
+    display: flex;
+}
+
+

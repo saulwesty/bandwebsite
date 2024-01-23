@@ -25,7 +25,8 @@ body{
         width:150px;
         position:absolute;
         top:5%;
-        left:5%;    
+        left:5%;   
+         
     }
     /*3 columns section*/
     .textual{
@@ -104,7 +105,7 @@ body{
     .optional{
         background-color: black;
         visibility: hidden;
-        width:25%;
+        width:28%;
         position: fixed;
         right:0.5%;
         top:33%;
@@ -153,16 +154,16 @@ body{
         text-shadow: 2px 2px 50px rgb(251,4,204);
         letter-spacing: 10px;
         top:0px;
-        margin:50px 0px;
+        margin:100px 0px 40px 0px;
             
     }
     /*Logo formatting top*/
     .img3{
         border-radius: 1000px;
-        width:180px;
-        position:absolute;
-        top:20%;
+        width:150px;
+        
         align-items: center;
+        
         
         
     }
@@ -241,7 +242,7 @@ body{
     }
 
     h7{
-        line-height: 170px;
+        line-height: 80px;
         background-color: black;
         
     }
@@ -250,14 +251,15 @@ body{
     .optional{
         background-color: black;
         visibility: hidden;
-        width:25%;
+        width:39%;
         position: fixed;
-        right:0.5%;
+        right:10%;
         top:13%;
         border:1px black solid;
         background-color: rgb(251,4,204,0.5);
         z-index: 1;
         text-align: center;
+        padding:1% 0% 0% 2%;
     }
     /*back to the top button*/
 
@@ -401,7 +403,7 @@ p{
 /*text for bottom barleft*/
 .bottomp{   
     font-size:40px;
-    margin:30px;
+    margin:60px;
 }   
 
 /*text for bottom bar right*/
@@ -559,7 +561,7 @@ input{
 
 html {
     scroll-behavior: smooth;
-   }
+}
 
 
 .instruments{

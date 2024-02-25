@@ -13,10 +13,10 @@
     <!-- options for bars -->
     <div id="optional" class="optional">
         <a href="/" class="clickable"> Home</a>&nbsp&nbsp<br>
-        <a href="about" class="clickable"> About</a>&nbsp&nbsp<br>
-        <a href="socials" class="clickable"> Socials</a>&nbsp&nbsp<br>
-        <a href="gigs" class="clickable"> Gigs</a>&nbsp&nbsp<br>
-        <a href="contact" class="clickable"> Contact</a>&nbsp&nbsp<br>
+        <a href="about.html" class="clickable"> About</a>&nbsp&nbsp<br>
+        <a href="socials.html" class="clickable"> Socials</a>&nbsp&nbsp<br>
+        <a href="gigs.html" class="clickable"> Gigs</a>&nbsp&nbsp<br>
+        <a href="contact.html" class="clickable"> Contact</a>&nbsp&nbsp<br>
     
     </div>
 
